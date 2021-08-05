@@ -1,9 +1,9 @@
 import React from 'react'
-
-function ChildElement(props) {
+import styles from './appStyle.module.css'
+function ChildElement() {
     return (
         <div>
-            <button onClick={props.propName}>Click me</button>    
+            <h1 className = {styles.success}>Hello</h1>
         </div>
     )   
 }
